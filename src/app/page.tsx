@@ -1,7 +1,7 @@
 "use client";
+import React,{ useState } from "react";
 import Image from "next/image";
 import { Zap, DollarSign, Shield, ArrowRight, Menu } from "lucide-react";
-import { useState } from "react";
 
 const HomePage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
