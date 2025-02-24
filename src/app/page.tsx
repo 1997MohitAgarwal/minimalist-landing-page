@@ -93,7 +93,7 @@ const HomePage = () => {
 
       {/* Main Content */}
       <main className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="text-center mt-10 sm:mt-16">
+        <div className="text-center mt-10 sm:mt-14">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl max-w-5xl mx-auto font-bold leading-tight mb-10 sm:mb-8">
             Transform Your Business With Our{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1E3C72] via-[#9B0F89] to-[#D2691E]">
