@@ -23,7 +23,7 @@ const HomePage = () => {
 
       {/* Navigation */}
       <nav className="relative z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl py-0 sm:py-2 mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             <div className="flex items-center">
               <Image
@@ -37,8 +37,8 @@ const HomePage = () => {
                 {navItems.map((item, index) => (
                   <li
                     key={index}
-                    className={`text-sm text-gray-300 hover:text-white transition-colors px-4 py-2 ${
-                      index !== 0 ? "border-l border-gray-500/30" : ""
+                    className={`text-sm text-white hover:text-gray-300 transition-colors px-4 ${
+                      index !== 0 ? "border-l border-gray-500" : ""
                     }`}
                   >
                     <button className="focus:outline-none">{item}</button>
@@ -48,10 +48,10 @@ const HomePage = () => {
             </div>
 
             <div className="hidden md:flex items-center space-x-6">
-              <button className="text-sm text-gray-300 hover:text-white transition-colors">
+              <button className="text-sm text-white hover:text-gray-300 transition-colors">
                 Let&apos;s work together
               </button>
-              <button className="border border-gray-500/50 px-5 py-2 rounded-xl text-sm hover:bg-white/5 transition-colors">
+              <button className="border border-gray-500/50 px-5 py-1.5 rounded-xl text-sm hover:bg-white/5 transition-colors">
                 Sign in
               </button>
             </div>
@@ -93,7 +93,7 @@ const HomePage = () => {
 
       {/* Main Content */}
       <main className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="text-center mt-12">
+        <div className="text-center mt-10 sm:mt-16">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl max-w-5xl mx-auto font-bold leading-tight mb-10 sm:mb-8">
             Transform Your Business With Our{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1E3C72] via-[#9B0F89] to-[#D2691E]">
@@ -113,7 +113,7 @@ const HomePage = () => {
             you covered.
           </p>
 
-          <div className="mt-8">
+          <div className="mt-12">
             <button className="relative flex items-center justify-between w-[300px] h-[50px] mx-auto rounded-md border border-[#50BFFF] overflow-hidden bg-[#101E30] transition-all duration-300 hover:border-[#1E3C72]">
               <span className="absolute inset-0 w-[130px] h-full bg-gradient-to-r from-[#1E3C72] via-[#9B0F89] to-[#D2691E] rounded-md transition-transform duration-300 transform translate-x-0"></span>
               <span className="relative z-10 text-white text-sm pl-4">
